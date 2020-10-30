@@ -37,4 +37,6 @@ exports.jwtPassport = passport.use(
     )
 );
 
+//jwt.io to decoded token and see what the token provides
+
 exports.verifyUser = passport.authenticate('jwt', {session: false});
